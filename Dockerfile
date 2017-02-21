@@ -33,5 +33,4 @@ ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 
 EXPOSE $BROKER_PORT
 
-# CMD ["/bin/sh"]
 # CMD ["sh", "-c", "$KAFKA_HOME/bin/kafka-server-start.sh", "$KAFKA_HOME/config/server.properties"]
